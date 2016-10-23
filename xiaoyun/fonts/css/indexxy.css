@@ -1,0 +1,221 @@
+body {
+	font-family: "微软雅黑";
+}
+ul li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none !important;
+}
+.top{
+	min-height: 30px;
+}
+.top .logo img {
+	height: 30px;
+	margin-top: 20px;
+}
+.top .nav ul li {
+	display: block;
+	float: left;
+	margin: 0 10px;
+	padding: 0 10px;
+	line-height: 80px;	
+}
+.nav {
+	position: relative;
+}
+.nav ul li:hover {
+	border-bottom: 2px solid #1BC9A8;
+	margin-bottom: 0px;
+}
+.top .nav ul li a {
+	color: #555;
+	font-size: 16px;
+}
+.top .nav ul li a:hover {
+	color: #000;
+}
+.top .dl {
+	float: right;
+	text-align: right;
+}
+.top .dl a {
+	color: #555;
+	font-size: 16px;
+	margin: 0 5px;
+	line-height: 80px;
+}
+.top .dl a:hover {
+	color: #1BC9A8;
+}
+.top .dl .btn1 {
+	border: solid 1px #1BC9A8;
+	border-radius: 13px;
+	color: #1BC9A8;
+	padding: 5px 10px;
+}
+.top .dl .btn1:hover {
+	color: #fff;
+	background: #1BC9A8;
+}
+.nav ul li .xl {
+	position: absolute;
+	display: none;
+	padding: 0px;
+	margin: 0px;
+	background: #1BC9A8;
+	top:84px;
+	left: 121px;
+	border-radius: 5px;	
+}
+.nav ul li .xl li {
+    border-bottom: none;
+    clear: both;
+    margin: 0px;
+    line-height: 35px;	
+}
+.nav ul li .xl li a {
+	color: #fff;
+}
+.nav ul li:hover>.xl {
+	display: block;
+}
+.nav ul li:hover>.xl li:hover {
+	background: #E6E6E6;
+	border-radius: 5px;
+}
+.nav ul li:hover>.xl li>a:hover {
+	color: #000;
+}
+.nav ul li>.xl-1 {
+	position: absolute;
+	display: none;
+	padding: 0;
+	margin: 0;
+	background: #1BC9A8;
+	top:84px;
+	left: 194px;
+	border-radius: 5px;
+}
+.nav ul li>.xl-1 li {
+    border-bottom: none;
+    clear: both;
+    margin: 0;
+    line-height: 20px;
+    line-height: 35px;
+}
+.nav ul li>.xl-1 li>a {
+	color: #fff;
+}
+.nav ul li:hover>.xl-1 {
+	display: block;
+}
+.nav ul li:hover>.xl-1 li:hover {
+	background: #E6E6E6;
+	border-radius: 5px;
+}
+.nav ul li:hover>.xl-1 li>a:hover {
+	color: #000;
+}
+.nav ul li>.xl-2 {
+	position: absolute;
+	display: none;
+	padding: 0;
+	margin: 0;
+	background: #1BC9A8;
+	top:84px;
+	left: 266px;
+	border-radius: 5px;
+}
+.nav ul li>.xl-2 li {
+    border-bottom: none;
+    clear: both;
+    margin: 0;
+    line-height: 20px;
+    line-height: 35px;
+}
+.nav ul li>.xl-2 li>a {
+	color: #fff;
+}
+.nav ul li:hover>.xl-2 {
+	display: block;
+}
+.nav ul li:hover>.xl-2 li:hover {
+	background: #E6E6E6;
+	border-radius: 5px;
+}
+.nav ul li:hover>.xl-2 li>a:hover {
+	color: #000;
+}
+
+
+
+.dl .btn-1 {
+	color: #B3B3B3;
+	position:relative;
+	top: 3px;
+}
+.dl .btn-1:hover>.cbl {
+	display: block;
+	color: #000;
+}
+.cbl {
+	/*display: none;*/
+	position: absolute;
+	top: 57px;
+	left: -176px;
+	clear:both;
+	text-align: left;
+	list-style:none;
+	margin:0; 
+	padding:0;
+	width:200px;
+	margin:0 auto;
+}
+.cbl li label {
+	background: #333; 
+	border-bottom:1px solid #4e4d4d;
+	color: #fff;
+	text-shadow: 0 1px 1px #000;
+	letter-spacing: 0.09em;
+	display:block;
+	padding-left:12px;
+	width:200px;
+	margin-bottom: 0;
+}
+.cbl li label:hover {
+	box-shadow: 0 0 15px 3px #222 inset;
+}
+.cbl li>.cbl-ul {
+	display: none;
+	background: #333;
+}
+.cbl li:hover>.cbl-ul {
+	display: block;
+}
+
+
+.dl {
+	float: right;
+	text-align: right;
+}
+.dl a {
+	color: #000;
+	line-height: 60px;
+	font-size: 16px;
+	text-decoration: none;
+	margin: 0 5px;
+}
+.dl a:hover {
+	color: #1BC9A8;
+}
+.dl .btn1 {
+	border: 1px solid #1BC9A8;
+	border-radius: 9px;
+	color: #1BC9A8;
+	padding: 5px 10px;
+}
+.dl .btn1:hover {
+	color: #fff;
+	background: #1BC9A8;
+}
